@@ -25,7 +25,7 @@ export function createArrList(arr) {
     const li = document.createElement('li');
     li.textContent = itemText;
 
-    li.addEventListener('mouseenter', () => {
+    li.addEventListener('mouseover', () => {
       li.setAttribute('title', li.textContent);
     });
 
